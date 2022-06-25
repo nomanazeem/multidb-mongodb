@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication(exclude = {MongoAutoConfiguration.class, MongoDataAutoConfiguration.class})
-@EnableScheduling
 public class MultidbMongodbApplication {
 
 	public static void main(String[] args) {
